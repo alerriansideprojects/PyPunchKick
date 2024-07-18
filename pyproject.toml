@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "PyPunchKick"
+version = "0.1.0"
+description = "2D fighting game with PyGame"
+authors = ["Steven Anderson <steven.a.anderson2012@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-mypy = "^0.8.1"
+
+[build-system]
+requires = ["poetry-core>=1.8.3"]
+build-backend = "poetry.core.masonry.api"
